@@ -50,18 +50,18 @@ git clone https://github.com/araj7491/expiry-aware-grocer.git
 2. Install dependencies:
 npm install
 
-text
+
 
 3. Configure your environment variables in a `.env` file:
 DATABASE_URL=your_postgres_connection_string
 JWT_SECRET=your_secret_key
 
-text
+
 
 4. Start the development server:
 npm run dev
 
-text
+
 
 ---
 
