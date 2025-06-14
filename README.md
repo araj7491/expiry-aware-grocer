@@ -43,7 +43,7 @@ Experience the application here: [https://freshguard-app.netlify.app/](https://f
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/freshguard.git
+git clone https://github.com/araj7491/expiry-aware-grocer.git
 cd freshguard
 
 text
