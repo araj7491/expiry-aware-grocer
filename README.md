@@ -44,9 +44,8 @@ Experience the application here: [https://freshguard-app.netlify.app/](https://f
 
 1. Clone the repository:
 git clone https://github.com/araj7491/expiry-aware-grocer.git
-cd freshguard
 
-text
+
 
 2. Install dependencies:
 npm install
