@@ -66,11 +66,6 @@ text
 
 ---
 
-## Screenshots
-
-<!-- Add relevant screenshots here -->
-
----
 
 ## Contributing
 
