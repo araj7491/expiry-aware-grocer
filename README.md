@@ -4,7 +4,7 @@ FreshGuard is a robust web application designed to assist grocery retailers in m
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 Experience the application here: [https://freshguard-app.netlify.app/](https://freshguard-app.netlify.app/)
 
