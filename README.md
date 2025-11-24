@@ -1,82 +1,73 @@
-# FreshGuard: Smart Expiry Management System for Grocery Stores
+# Welcome to your Lovable project
 
-FreshGuard is a robust web application designed to assist grocery retailers in managing product expiry dates, reducing food waste, and optimizing inventory operations. With real-time tracking, automated notifications, and advanced analytics, FreshGuard enables stores to maintain optimal stock levels, minimize losses, and promote sustainable practices.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/6c9737c8-a260-4f85-910f-c5e577546895
 
-## Live Demo
+## How can I edit this code?
 
-Experience the application here: [https://freshguard-app.netlify.app/](https://freshguard-app.netlify.app/)
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## Key Features
+Simply visit the [Lovable Project](https://lovable.dev/projects/6c9737c8-a260-4f85-910f-c5e577546895) and start prompting.
 
-- **User Authentication & Role Management:** Secure login for staff, managers, and administrators with role-based access control.
-- **Centralized Dashboard:** Comprehensive overview of inventory status, expiring products, and actionable alerts.
-- **Product Inventory Management:** Add, edit, and monitor products with batch numbers, expiry dates, and supplier information.
-- **Expiry Tracking & Automated Alerts:** Receive notifications via email, SMS, and in-app messages for products nearing expiry.
-- **Inventory Optimization:** Real-time stock updates, low-stock alerts, and intelligent reorder suggestions.
-- **Sales Prevention for Expired Items:** Prevent the sale of expired products and enable dynamic pricing for near-expiry items.
-- **Analytics & Reporting:** Generate detailed reports on sales, wastage, and inventory trends.
-- **Multi-Location Support:** Manage multiple store locations and warehouses from a unified platform.
-- **System Integrations:** Seamlessly integrate with POS and supply chain management systems.
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## Technology Stack
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-- **Frontend:** React (responsive and mobile-optimized)
-- **Backend:** Node.js with RESTful API architecture
-- **Database:** PostgreSQL
-- **Deployment:** Netlify (frontend) with cloud hosting for backend services
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## Getting Started
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Prerequisites
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- Node.js and npm
-- PostgreSQL database
+# Step 3: Install the necessary dependencies.
+npm i
 
-### Installation
-
-1. Clone the repository:
-git clone https://github.com/araj7491/expiry-aware-grocer.git
-
-
-
-2. Install dependencies:
-npm install
-
-
-
-3. Configure your environment variables in a `.env` file:
-DATABASE_URL=your_postgres_connection_string
-JWT_SECRET=your_secret_key
-
-
-
-4. Start the development server:
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+```
 
+**Edit a file directly in GitHub**
 
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Contributing
+## What technologies are used for this project?
 
-Contributions are welcome. Please open an issue or submit a pull request for any improvements or bug fixes.
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## License
+## How can I deploy this project?
 
-This project is licensed under the MIT License.
+Simply open [Lovable](https://lovable.dev/projects/6c9737c8-a260-4f85-910f-c5e577546895) and click on Share -> Publish.
 
+## Can I connect a custom domain to my Lovable project?
 
----
+Yes, you can!
 
-**FreshGuard – Enhance Inventory Management, Reduce Waste.**
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
