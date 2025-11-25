@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="src/assets/freshguard-logo.jpg" alt="FreshGuard Logo" width="200"/>
+</div>
+
 # FreshGuard - Expiry Aware Grocer
 
 ## Project info
