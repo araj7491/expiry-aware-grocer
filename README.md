@@ -4,6 +4,10 @@
 
 FreshGuard is an AI-powered food loss prevention system for India's cold chain.
 
+## Live Demo
+
+🌐 **[View Live Application](https://freshguard-app.netlify.app/)**
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
