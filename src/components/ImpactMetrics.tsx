@@ -7,9 +7,9 @@ const economicData = [
 ];
 
 const environmentalData = [
-  { name: 'Waste Reduced', value: 10, color: 'hsl(140, 80%, 35%)' },
-  { name: 'CO₂ Cut', value: 20, color: 'hsl(25, 100%, 60%)' },
-  { name: 'Water Saved', value: 15, color: 'hsl(240, 100%, 35%)' }
+  { name: 'Waste Reduced', value: 10, color: 'hsl(122, 47%, 57%)' },
+  { name: 'CO₂ Cut', value: 20, color: 'hsl(217, 91%, 60%)' },
+  { name: 'Water Saved', value: 15, color: 'hsl(38, 92%, 50%)' }
 ];
 
 const socialImpactData = [
@@ -20,7 +20,7 @@ const socialImpactData = [
   { month: 'M12', people: 100, meals: 250 }
 ];
 
-const COLORS = ['hsl(140, 80%, 35%)', 'hsl(25, 100%, 60%)', 'hsl(240, 100%, 35%)'];
+const COLORS = ['hsl(122, 47%, 57%)', 'hsl(217, 91%, 60%)', 'hsl(38, 92%, 50%)'];
 
 export const ImpactMetrics = () => {
   return (
@@ -182,10 +182,10 @@ export const ImpactMetrics = () => {
         {/* Bottom banner */}
         <div className="mt-16 max-w-5xl mx-auto gradient-hero text-white p-8 md:p-12 rounded-3xl text-center">
           <h3 className="text-3xl md:text-4xl font-bold mb-4">
-            Saving Money. Saving Food. Saving Lives.
+            Economic Value. Environmental Impact. Social Benefit.
           </h3>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">
-            Every tonne of food saved creates ₹50,000 in economic value, prevents 2 tonnes of CO₂, and can feed 250 people for a day.
+            Every tonne of food saved creates ₹50,000 in economic value, prevents 2 tonnes of CO₂ emissions, and provides 250 meals.
           </p>
         </div>
       </div>

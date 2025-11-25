@@ -19,7 +19,7 @@ export const SolutionTabs = () => {
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            One Platform. <span className="text-gradient">Three Powerful Tiers.</span> Complete Coverage.
+            One Platform. <span className="text-gradient">Three Integrated Tiers.</span> Complete Coverage.
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             From farm to retail, FreshGuard connects every link in India's food supply chain
@@ -85,7 +85,7 @@ export const SolutionTabs = () => {
                     <div>
                       <h4 className="font-semibold mb-1">Mini Use Case</h4>
                       <p className="text-sm text-muted-foreground">
-                        <span className="font-medium text-secondary">Tomatoes expiring in 3 days?</span> Auto-notify nearby ketchup factory, get instant offer, and save 100% value instead of 70% loss.
+                        <span className="font-medium text-secondary">When tomatoes reach 3 days until expiration,</span> the system automatically notifies nearby ketchup factories, generating instant offers and recovering 100% value instead of 70% loss.
                       </p>
                     </div>
                   </div>
@@ -242,7 +242,7 @@ export const SolutionTabs = () => {
                     <div>
                       <h4 className="font-semibold mb-1">Consumer Win-Win</h4>
                       <p className="text-sm text-muted-foreground">
-                        Shoppers save up to <span className="font-medium text-primary">50% on quality food</span>, stores reduce waste by <span className="font-medium text-primary">60%</span>, and the planet gets a break.
+                        Shoppers save up to <span className="font-medium text-primary">50% on quality food</span>, stores reduce waste by <span className="font-medium text-primary">60%</span>, while reducing environmental impact.
                       </p>
                     </div>
                   </div>

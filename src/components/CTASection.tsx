@@ -9,28 +9,28 @@ export const CTASection = () => {
         <div className="max-w-5xl mx-auto gradient-hero text-white rounded-3xl overflow-hidden">
           <div className="p-12 md:p-16 text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
-              Join Us in Solving India's Food Crisis
+              Partner in India's ₹92,000 Crore Food Waste Solution
             </h2>
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-              Together, we can save 10 million tonnes of food, protect farmer livelihoods, and feed millions of hungry Indians.
+              Together, we can prevent 10 million tonnes of food waste, protect farmer livelihoods, and address food security challenges across India.
             </p>
 
             {/* Investment ask */}
-            <div className="max-w-md mx-auto glass-card p-8 rounded-2xl mb-8 text-center backdrop-blur">
-              <div className="text-sm opacity-80 mb-2">Seed Investment Opportunity</div>
-              <div className="text-5xl font-bold mb-4">₹10 Lakh</div>
+            <div className="max-w-md mx-auto bg-white/20 backdrop-blur-md border-2 border-white/30 p-8 rounded-2xl mb-8 text-center shadow-2xl">
+              <div className="text-sm font-semibold text-white mb-2">Seed Investment Opportunity</div>
+              <div className="text-5xl font-bold text-white mb-4">₹10 Lakh</div>
               <div className="grid grid-cols-3 gap-4 text-sm">
                 <div>
-                  <div className="font-bold text-2xl">5</div>
-                  <div className="opacity-80">Cold Storages</div>
+                  <div className="font-bold text-2xl text-white">5</div>
+                  <div className="text-white font-medium">Cold Storages</div>
                 </div>
                 <div>
-                  <div className="font-bold text-2xl">6</div>
-                  <div className="opacity-80">Month Pilot</div>
+                  <div className="font-bold text-2xl text-white">6</div>
+                  <div className="text-white font-medium">Month Pilot</div>
                 </div>
                 <div>
-                  <div className="font-bold text-2xl">500T</div>
-                  <div className="opacity-80">Food Saved</div>
+                  <div className="font-bold text-2xl text-white">500T</div>
+                  <div className="text-white font-medium">Food Saved</div>
                 </div>
               </div>
             </div>
@@ -44,13 +44,13 @@ export const CTASection = () => {
                 <FileText className="mr-2 h-5 w-5" />
                 Request Full Proposal
               </Button>
-              <Button 
+              <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg rounded-full transition-all duration-500 hover:scale-110"
+                className="border-2 border-white/80 text-white bg-transparent hover:bg-white/10 hover:border-white px-8 py-6 text-lg rounded-full transition-all duration-500 hover:scale-110 shadow-lg"
               >
                 <Calendar className="mr-2 h-5 w-5" />
-                Schedule Demo
+                Schedule Consultation
               </Button>
             </div>
           </div>
@@ -110,11 +110,11 @@ export const CTASection = () => {
           </div>
 
           <div className="mt-8 text-center">
-            <Button 
+            <Button
               size="lg"
               className="gradient-primary text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
-              Let's Stop This Together
+              Partner With Us
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>

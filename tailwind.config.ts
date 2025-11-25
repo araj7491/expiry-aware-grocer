@@ -61,6 +61,28 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // FreshGuard Brand Colors
+        "fg-leaf": {
+          light: "hsl(var(--fg-leaf-light))",
+          DEFAULT: "hsl(var(--fg-leaf-medium))",
+          medium: "hsl(var(--fg-leaf-medium))",
+          dark: "hsl(var(--fg-leaf-dark))",
+        },
+        "fg-text-dark": "hsl(var(--fg-text-dark))",
+        "fg-accent": "hsl(var(--fg-accent-light))",
+        // Dashboard Urgency Colors
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        info: {
+          DEFAULT: "hsl(var(--info))",
+          foreground: "hsl(var(--info-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

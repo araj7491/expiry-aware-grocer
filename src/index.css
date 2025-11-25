@@ -25,42 +25,58 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    /* Indian-inspired primary colors */
-    --primary: 25 100% 60%; /* Saffron Orange */
+    /* FreshGuard Brand Colors */
+    --primary: 122 47% 57%; /* FreshGuard Green - 66BB6A */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 140 80% 25%; /* Deep Green */
+    --secondary: 123 47% 63%; /* Light Green - 9CCC65 */
     --secondary-foreground: 0 0% 100%;
 
-    --tertiary: 240 100% 25%; /* Navy Blue */
+    --tertiary: 145 63% 19%; /* Dark Green - 2E7D32 */
     --tertiary-foreground: 0 0% 100%;
+
+    /* FreshGuard Brand Colors */
+    --fg-leaf-light: 123 47% 63%; /* #9CCC65 */
+    --fg-leaf-medium: 122 47% 57%; /* #66BB6A */
+    --fg-leaf-dark: 145 63% 19%; /* #2E7D32 */
+    --fg-text-dark: 145 71% 14%; /* #1B5E20 */
+    --fg-accent-light: 103 48% 76%; /* #C5E1A5 */
+
+    /* Dashboard Urgency Colors - Standard Semantic */
+    --warning: 38 92% 50%; /* Amber for High urgency */
+    --warning-foreground: 0 0% 100%;
+    --success: 122 47% 57%; /* FreshGuard Green for Low urgency */
+    --success-foreground: 0 0% 100%;
+    --info: 217 91% 60%; /* Blue for Medium urgency */
+    --info-foreground: 0 0% 100%;
 
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 25 95% 53%; /* Vibrant saffron */
-    --accent-foreground: 0 0% 100%;
+    --accent: 123 47% 63%; /* Light Green */
+    --accent-foreground: 240 5.9% 10%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84.2% 60.2%; /* Standard Red for Critical */
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 25 100% 60%;
+    --ring: 122 47% 57%; /* FreshGuard Green */
 
     --radius: 0.75rem;
     
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(25 100% 60%), hsl(25 95% 53%));
-    --gradient-hero: linear-gradient(135deg, hsl(25 100% 60%) 0%, hsl(140 80% 35%) 50%, hsl(240 100% 35%) 100%);
-    --gradient-success: linear-gradient(135deg, hsl(140 80% 25%), hsl(140 70% 35%));
-    --gradient-info: linear-gradient(135deg, hsl(240 100% 25%), hsl(240 90% 35%));
+    --gradient-primary: linear-gradient(135deg, hsl(123 47% 63%), hsl(122 47% 57%));
+    --gradient-hero: linear-gradient(135deg, hsl(123 47% 63%) 0%, hsl(122 47% 57%) 50%, hsl(145 63% 19%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(123 47% 63%), hsl(122 47% 57%));
+    --gradient-info: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 50%));
+    --gradient-freshguard: linear-gradient(135deg, hsl(123 47% 63%), hsl(122 47% 57%), hsl(145 63% 19%));
     
     /* Shadows */
     --shadow-soft: 0 2px 10px hsla(240, 5%, 10%, 0.08);
     --shadow-medium: 0 8px 30px hsla(240, 5%, 10%, 0.12);
     --shadow-large: 0 20px 50px hsla(240, 5%, 10%, 0.15);
-    --shadow-glow: 0 0 40px hsla(25, 100%, 60%, 0.3);
+    --shadow-glow: 0 0 40px hsla(122, 47%, 57%, 0.3);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -94,27 +110,42 @@ All colors MUST be HSL.
     --popover: 240 10% 7%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 25 100% 60%;
+    --primary: 122 47% 57%; /* FreshGuard Green */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 140 80% 25%;
+    --secondary: 123 47% 63%; /* Light Green */
     --secondary-foreground: 0 0% 100%;
 
-    --tertiary: 240 100% 25%;
+    --tertiary: 145 63% 19%; /* Dark Green */
     --tertiary-foreground: 0 0% 100%;
+
+    /* FreshGuard Brand Colors (same in dark mode) */
+    --fg-leaf-light: 123 47% 63%;
+    --fg-leaf-medium: 122 47% 57%;
+    --fg-leaf-dark: 145 63% 19%;
+    --fg-text-dark: 145 71% 14%;
+    --fg-accent-light: 103 48% 76%;
+
+    /* Dashboard Urgency Colors - Standard Semantic */
+    --warning: 38 92% 50%; /* Amber for High urgency */
+    --warning-foreground: 0 0% 100%;
+    --success: 122 47% 57%; /* FreshGuard Green for Low urgency */
+    --success-foreground: 0 0% 100%;
+    --info: 217 91% 60%; /* Blue for Medium urgency */
+    --info-foreground: 0 0% 100%;
 
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 123 47% 63%; /* Light Green */
+    --accent-foreground: 240 5.9% 10%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 62.8% 30.6%; /* Standard Red for Critical (dark mode) */
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 25 100% 60%;
+    --ring: 122 47% 57%; /* FreshGuard Green */
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -162,7 +193,53 @@ All colors MUST be HSL.
   .gradient-info {
     background: var(--gradient-info);
   }
-  
+
+  .gradient-freshguard {
+    background: var(--gradient-freshguard);
+  }
+
+  /* Urgency level classes for dashboard */
+  .urgency-critical {
+    background: hsl(var(--destructive));
+    color: hsl(var(--destructive-foreground));
+  }
+
+  .urgency-high {
+    background: hsl(var(--warning));
+    color: hsl(var(--warning-foreground));
+  }
+
+  .urgency-medium {
+    background: hsl(var(--info));
+    color: hsl(var(--info-foreground));
+  }
+
+  .urgency-low {
+    background: hsl(var(--success));
+    color: hsl(var(--success-foreground));
+  }
+
+  /* Category classes for dashboard */
+  .category-bakery {
+    @apply bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200;
+  }
+
+  .category-fruits {
+    @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+  }
+
+  .category-dairy {
+    @apply bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200;
+  }
+
+  .category-vegetables {
+    @apply bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200;
+  }
+
+  .category-meat {
+    @apply bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200;
+  }
+
   .glass-card {
     background: hsla(0, 0%, 100%, 0.7);
     backdrop-filter: blur(10px);

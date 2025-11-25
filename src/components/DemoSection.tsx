@@ -183,7 +183,7 @@ export const DemoSection = () => {
 
               {hoveredCard === 'storage' && (
                 <div className="mt-4 p-3 bg-primary/5 rounded-lg text-xs text-muted-foreground animate-fade-in border border-primary/20">
-                  💡 Real-time IoT monitoring tracks temperature, humidity & produce condition
+                  Real-time IoT monitoring tracks temperature, humidity and produce condition
                 </div>
               )}
             </div>
@@ -262,11 +262,11 @@ export const DemoSection = () => {
               {!isMatching && !isComplete && (
                 <div className="space-y-2">
                   <div className="text-muted-foreground">
-                    Click below to watch AI work its magic
+                    Click below to view the AI matching process
                   </div>
                   {showTooltip && (
                     <div className="text-xs text-primary font-medium animate-fade-in">
-                      ✨ 95%+ accuracy rate
+                      95%+ matching accuracy
                     </div>
                   )}
                 </div>
@@ -282,7 +282,7 @@ export const DemoSection = () => {
 
               {hoveredCard === 'ai' && !isMatching && !isComplete && (
                 <div className="mt-4 p-3 bg-primary/5 rounded-lg text-xs text-muted-foreground animate-fade-in border border-primary/20">
-                  🧠 ML model trained on 1M+ data points
+                  Machine learning model trained on 1M+ data points
                 </div>
               )}
             </div>
@@ -399,7 +399,7 @@ export const DemoSection = () => {
                 </>
               ) : (
                 <>
-                  Click to Watch Magic Happen
+                  Start Demo
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </>
               )}

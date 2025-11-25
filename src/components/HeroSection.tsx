@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, LayoutDashboard } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const AnimatedCounter = ({ end, duration = 2000, prefix = "", suffix = "" }: { end: number; duration?: number; prefix?: string; suffix?: string }) => {
   const [count, setCount] = useState(0);
@@ -47,10 +48,10 @@ export const HeroSection = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="text-center max-w-5xl mx-auto space-y-8">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary border border-primary text-white text-sm font-semibold shadow-lg">
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
             </span>
             Powered by AI + IoT + Blockchain
           </div>
@@ -61,7 +62,7 @@ export const HeroSection = () => {
             <br />
             <span className="text-foreground">190 Million Hungry.</span>
             <br />
-            <span className="text-gradient">One AI Solution.</span>
+            <span className="text-primary font-extrabold">One AI-Powered Platform.</span>
           </h1>
 
           {/* Subheadline */}
@@ -94,15 +95,25 @@ export const HeroSection = () => {
           </div>
 
           {/* CTA */}
-          <div className="pt-8">
-            <Button 
-              size="lg" 
-              className="gradient-primary text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110 relative overflow-hidden group"
+          <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link to="/dashboard">
+              <Button
+                size="lg"
+                className="gradient-freshguard text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110 relative overflow-hidden group"
+              >
+                <LayoutDashboard className="mr-2 h-5 w-5 relative z-10" />
+                <span className="relative z-10">Open Dashboard</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
+              </Button>
+            </Link>
+            <Button
+              size="lg"
+              variant="outline"
+              className="px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-110"
               onClick={scrollToDemo}
             >
-              <span className="relative z-10">See Live Demo</span>
-              <ArrowDown className="ml-2 h-5 w-5 animate-bounce relative z-10" />
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
+              <span>See Live Demo</span>
+              <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
             </Button>
           </div>
         </div>
